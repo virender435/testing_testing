@@ -104,7 +104,7 @@ stuDA_t* sortDynamicArray(stuDA_t *pHEAD, const sort_t sort_type,
 		break;
 	case gNamesort:
 		qsort(pHEAD, array_size, sizeof(stuRec_t), comparo_gName);
-	
+	        break;
 	case gradesort:
 		qsort(pHEAD, array_size, sizeof(stuRec_t), comparo_grade);
 		break;
