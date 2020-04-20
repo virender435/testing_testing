@@ -46,7 +46,7 @@ stuLL_t* addNodeLinkedList(stuLL_t *pHEAD, stuRec_t stdata)
 			strcpy(pHEAD->data.fName, stdata.fName);
 			strcpy(pHEAD->data.gName, stdata.gName);
 			pHEAD->data.grade = stdata.grade;
-			pHEAD->pNext = NULL; // the head node is also the last node atm
+			pHEAD->pNext = NULL; 
 		}
 		else
 		{
@@ -98,8 +98,7 @@ stuLL_t* findLinkedList(stuLL_t *pHEAD, char *targetFamilyName)
 		// list is not empty, begin search
 		while ((pW != NULL) && (strcmp(pW->data.fName, targetFamilyName)))
 		{
-			// PROBLEM #2: complete the code for this function
-			//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
+			pW  =pw->pNext;
 		}
 		printf("\n");
 	}
