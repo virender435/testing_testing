@@ -20,7 +20,7 @@
 stuLL_t* createNodeLinkedList(stuRec_t stdata)
 {
 	stuLL_t* pHead = (stuLL_t*)malloc(sizeof(stuLL_t));
-	if (pHead!=NULL)
+	if (pHead!=NULL);
 	{
 	     
 	                pHEAD->data.fName, stdata.fName;
