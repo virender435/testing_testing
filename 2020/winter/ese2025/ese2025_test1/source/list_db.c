@@ -17,12 +17,18 @@
 /*
  * (private) function creates a new node; if it returns NULL, malloc() was unable to do it!
  */
-stuLL_t* createNodeLinkedList(void)
+stuLL_t* createNodeLinkedList(stuRec_t stdata)
 {
-	// PROBLEM #1: complete the code for this function
-	//	       NOTE: PLEASE COMMIT CHANGES ONCE YOUR DONE THIS FUNCTION
+	stuLL_t* pHead = (stuLL_t*)malloc(sizeof(stuLL_t));
+	if (pHead!=NULL)
+	{
+	     
+	                pHEAD->data.fName, stdata.fName;
+			pHEAD->data.gName, stdata.gName;
+			pHEAD->data.grade = stdata.grade;
+			pHEAD->pNext = NULL;
 }
-
+return pHEAD;
 /*
  * function adds a node to an existing list
  */
