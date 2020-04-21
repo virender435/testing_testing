@@ -62,7 +62,7 @@ int comparo_grade(const void *pA, const void *pB)
 	float *grade_A = student_A.data.grade;
 	float *grade_B = student_B.data.grade;
 
-	return strcmp(grade_A, grade_B);
+	return (grade_A- grade_B)
 }
 
 /*
